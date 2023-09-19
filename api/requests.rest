@@ -1,0 +1,18 @@
+GET http://localhost:8000/todos
+
+###
+
+POST http://localhost:8000/todo/new
+Content-Type: application/json
+
+{
+    "text": "Aryan is Raiia's Milk"
+}
+
+###
+
+DELETE http://localhost:8000/todo/delete/650940e38545ccfdff36175b
+
+###
+
+PUT http://localhost:8000/todo/complete/650940eb8545ccfdff36175d
